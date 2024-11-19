@@ -1,0 +1,136 @@
+body {margin:0;
+    background-image: url(sekolah.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border: 1px;
+  box-shadow: 0 1px 8px gray;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 16px 80px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+  color: white;
+}
+
+/* .active {
+  background-color: black;
+  cursor: pointer;
+  color: white;
+} */
+
+div {
+    width: auto;
+    background-color: lightgrey;
+    padding: 20px;
+    margin-top: 60px;
+    margin-left: 80px;
+    margin-right: 80px;
+    border-radius: 16px;
+}
+
+/* div {
+    width: 75%;
+    background-color: white;
+    padding: 10px;
+    margin: auto;
+    border-radius: 16px;
+    } */
+
+.gallery-title {
+  text-align: center;
+  font-weight: bold;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+}
+
+.gallery {
+    border: 1px solid #ccc;
+    float: left;
+    width: 300px;
+}
+
+.gallery:hover {
+    box-shadow: 0 1px 8px black;
+}
+
+.gallery img {
+    width: 100%;
+    height: 185px;
+    object-fit: cover;
+}
+
+.desc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1px;
+  text-align: center;
+  font-size: 14px;
+  height: 20px;
+}
+
+input {
+  border: 1px solid gray;
+  border-radius: 6px;
+  padding: 8px;
+  margin-bottom: 8px;
+  width: 30%;
+}
+
+button {
+  border: 1px solid gray;
+  border-radius: 6px;
+  padding: 8px;
+  cursor: pointer;
+  width: 100px;
+  background-color: gray;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+footer {
+  margin-top: 60px;
+  padding-top: 40px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  background-color: white;
+  width: 100%;
+  border: 1px solid lightgrey;
+}
+
